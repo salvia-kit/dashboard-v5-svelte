@@ -13,16 +13,16 @@
 		mainContainer: `flex flex-col h-screen pl-0 w-full lg:pl-24 lg:space-y-4`
 	};
 
+	onMount(() => {
+		document.getElementsByTagName('body').item(0).removeAttribute('tabindex');
+	});
+
 	if (browser) {
 		page.subscribe(() => {
 			// close side navigation when route changes
 			$open = false;
 		});
 	}
-
-	onMount(() => {
-		document.getElementsByTagName('body').item(0).removeAttribute('tabindex');
-	});
 </script>
 
 <div class={style.container}>
