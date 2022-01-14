@@ -574,7 +574,7 @@
 					</svg>
 					<div>
 						All free dashboard
-						<a href="#" class="text-red-500 pl-1 font-semibold"> free plan </a>
+						<span class="text-red-500 pl-1 font-semibold"> free plan </span>
 					</div>
 				</li>
 				<li class="mb-3 flex items-center space-x-2">

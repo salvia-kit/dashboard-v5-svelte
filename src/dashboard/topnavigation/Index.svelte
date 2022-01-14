@@ -23,7 +23,7 @@
 				</div>
 			</div>
 			<div class="flex items-center justify-end ml-5 p-1 relative w-full sm:mr-0 sm:right-auto">
-				<a href="#" class="block pr-5">
+				<span class="block pr-5">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-5 text-gray-600 w-5"
@@ -36,8 +36,8 @@
 							clip-rule="evenodd"
 						/>
 					</svg>
-				</a>
-				<a href="#" class="block pr-5">
+				</span>
+				<span class="block pr-5">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-6 w-6 text-gray-600"
@@ -49,8 +49,8 @@
 							d="M15 7v2a4 4 0 01-4 4H9.828l-1.766 1.767c.28.149.599.233.938.233h2l3 3v-3h2a2 2 0 002-2V9a2 2 0 00-2-2h-1z"
 						/>
 					</svg>
-				</a>
-				<a href="#" class="block pr-5 relative">
+				</span>
+				<span class="block pr-5 relative">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-6 text-gray-600 w-6"
@@ -63,14 +63,14 @@
 							clip-rule="evenodd"
 						/>
 					</svg>
-				</a>
-				<a href="#" class="block relative">
+				</span>
+				<span class="block relative">
 					<img
 						alt="profile"
 						src="/images/1.jpg"
 						class="h-10 mx-auto object-cover rounded-full w-10"
 					/>
-				</a>
+				</span>
 			</div>
 		</div>
 	</div>

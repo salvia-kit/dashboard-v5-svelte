@@ -19,7 +19,7 @@
 			<a
 				href={item.link}
 				class={`${style.link} 
-            ${item.link === $page.path ? style.active : style.inactive}`}
+            ${item.link === $page.url.pathname ? style.active : style.inactive}`}
 			>
 				<span><svelte:component this={item.icon} /></span>
 				<span class={`${style.title} ${$open ? style.open : style.close}`}>
